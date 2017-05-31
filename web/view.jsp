@@ -335,11 +335,10 @@
 
             <div class="clearfix"> </div>
         </div>
-        <div class="fb-comments" data-href="http://localhost:8080/ECommerceProject/" data-width="600" data-numposts="5"></div>
+            <div class="fb-comments" data-href="http://localhost:8080/ECommerceProject/view.jsp?productId=<%=productId%>" data-width="600" data-numposts="5"></div>
         <!---->
 
         <div class="products">
-            <%=map.get("products")%>
         </div>
         <div class="product-left">
             <div class="col-md-4 chain-grid">
@@ -608,6 +607,18 @@
         </div>						
     </div>	
 </div>	
+                    <script type='text/javascript'>window._sbzq || function (e) {
+                                                                        e._sbzq = [];
+                                                                        var t = e._sbzq;
+                                                                        t.push(["_setAccount", 65803]);
+                                                                        var n = e.location.protocol == "https:" ? "https:" : "http:";
+                                                                        var r = document.createElement("script");
+                                                                        r.type = "text/javascript";
+                                                                        r.async = true;
+                                                                        r.src = n + "//static.subiz.com/public/js/loader.js";
+                                                                        var i = document.getElementsByTagName("script")[0];
+                                                                        i.parentNode.insertBefore(r, i)
+                                                                    }(window);</script>
 </body>
 </html>
 <%}%>   
